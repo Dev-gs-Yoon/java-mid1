@@ -1,5 +1,7 @@
 package enumeration.test.http;
 
+import java.time.DayOfWeek;
+
 public enum HttpStatus {
   OK(200, "OK"),
   BAD_REQUEST(400, "Bad Request"),
