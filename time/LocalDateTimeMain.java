@@ -39,5 +39,7 @@ public class LocalDateTimeMain {
     // 비교되는 날짜가 서로 같은가?
     System.out.println("same = " + nowDt.isEqual(ofDt));
 
+
+    // eqauls : 객체의 타입, 타임존 등 내부 데이터의 모든 구성요소가 같아야 true를 반환
   }
 }

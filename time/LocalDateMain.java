@@ -16,10 +16,9 @@ public class LocalDateMain {
     LocalDate plusedDate = myDate.plusDays(10);
 
     System.out.println(nowDate.plusDays(20));
-    System.out.println("지정 날짜+10d = " + myDate );
+    System.out.println("지정 날짜+10d = " + myDate);
 
     System.out.println("plusesDate = " + plusedDate);
-
 
   }
 }
