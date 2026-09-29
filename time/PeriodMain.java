@@ -28,7 +28,7 @@ public class PeriodMain {
     System.out.println("startDate = " + startDate);
     System.out.println("endDate = " + endDate);
     System.out.println("betweenDate = " + betweenDate);
-
-    System.out.println(betweenDate.getMonths() + "개월 " + betweenDate.getDays() + "일");
+    System.out.println("기간 : " + betweenDate);
+    System.out.println("기간 : " + betweenDate.getMonths() + "개월 " + betweenDate.getDays() + "일");
   }
 }
